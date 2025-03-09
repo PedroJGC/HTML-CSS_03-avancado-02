@@ -1,0 +1,12 @@
+/*
+    CSS value functions
+    - Math
+*/
+
+div {
+  width: calc(30px + 1rem);
+  height: max(calc(0% + 10vh), min(100vh, 100px));
+  border: pink solid;
+
+  font-size: clamp(1rem, 7vw, 4rem);
+}
