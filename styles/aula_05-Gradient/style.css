@@ -1,0 +1,13 @@
+/*
+    CSS value functions
+    - Gradient
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  border: pink solid;
+
+  /* background: linear-gradient(24deg, rgb(255, 88, 88) 10%, rgb(106, 106, 245)); */
+  background: radial-gradient(red 50%, blue);
+}
