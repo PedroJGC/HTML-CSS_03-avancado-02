@@ -1,0 +1,22 @@
+/*
+    CSS value functions
+    - Filter
+*/
+
+div {
+  width: 500px;
+  height: 500px;
+  border: pink solid;
+  background-color: aqua;
+  border-radius: 10px;
+
+  /* filter: brightness(0.5) contrast(100); */
+  /* filter: drop-shadow(0.8rem 0.8rem 0 gray); */
+  /* filter: opacity(0.4) blur(2px); */
+  /* filter: invert(); */
+  filter: hue-rotate(200deg);
+}
+
+div:hover {
+  filter: unset;
+}
