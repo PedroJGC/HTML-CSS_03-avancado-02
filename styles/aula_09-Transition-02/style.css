@@ -1,0 +1,25 @@
+/*
+    CSS Transition - 02
+*/
+
+body {
+  background-color: mediumpurple;
+}
+
+div {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.6;
+
+  transition-property: opacity, transform;
+  transition-duration: 1s, 200ms;
+  /* transition-timing-function: ease-in; */
+  /* transition-timing-function: cubic-bezier(0.17, 0.67, 0.83, 0.67); */
+  transition-timing-function: steps(2);
+}
+
+div:hover {
+  opacity: 1;
+  transform: translateX(20px);
+}
