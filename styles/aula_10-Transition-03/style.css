@@ -1,0 +1,26 @@
+/*
+    CSS Transition - 02
+    - shorthand
+*/
+
+body {
+  background-color: mediumpurple;
+}
+
+div {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.6;
+
+  transition:
+    opacity 1s ease,
+    transform 400ms linear;
+
+  /* transition: all 400ms; */
+}
+
+div:hover {
+  opacity: 1;
+  transform: translateX(20px);
+}
