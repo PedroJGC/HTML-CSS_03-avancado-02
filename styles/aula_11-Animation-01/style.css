@@ -1,0 +1,34 @@
+/*
+    CSS Animation - 01
+*/
+
+button {
+  background-color: deeppink;
+  color: white;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+
+  animation-name: move;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  /* backwards - Mantém as propriedades iniciais*/
+  /* animation-fill-mode: backwards;  */
+
+  /* forwards - Mantém as propriedades finais */
+  /* animation-fill-mode: forwards; */
+
+  /* both - Puxa as propriedades iniciais da timeline e mantém as propriedades finais */
+  animation-fill-mode: both;
+}
+
+@keyframes move {
+  0% {
+    background-color: blue;
+  }
+
+  100% {
+    transform: translateX(400px);
+  }
+}
