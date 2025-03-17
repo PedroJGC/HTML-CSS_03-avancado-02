@@ -1,0 +1,23 @@
+/*
+    CSS Transition - 01
+*/
+
+body {
+  background-color: mediumpurple;
+}
+
+div {
+  background-color: white;
+  width: 4rem;
+  height: 4rem;
+  opacity: 0.6;
+
+  transition-property: opacity, transform;
+  transition-duration: 1s, 200ms;
+  transition-delay: 1s, 20ms;
+}
+
+div:hover {
+  opacity: 1;
+  transform: translateX(20px);
+}
